@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #453737;
+    background-image: url("images/dragonGOT.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+h1{
+    text-shadow: 5px 5px 8px #c3ab6c, -5px -5px 8px #c3ab6c, -5px 5px 8px #c3ab6c, 5px -5px 8px #c3ab6c;
+    font-size: 1.5em;
+    font-family: "Felix Titling", sans-serif;
+    color: #331914;
+}
+#formOfTheGame{
+    text-align: center;
+    background-color: #e5efe5;
+    max-width: 400px;
+    margin: 0 auto 0 ;
+    padding: 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: #220101 0 0 15px;
+    position: relative;
+    top: 30px;
+}
+#divOfH1 {
+    margin-bottom: 25px;
+    box-shadow: #220101 0 0 5px;
+    border-radius: 5px;
+    background-color: #884220;
+    padding: 10px;
+}
+#labelOfGame {
+    font-family: "Felix Titling", sans-serif;
+    text-shadow: 5px 5px 8px #6e2e13, -5px -5px 8px #6e2e13, 5px -5px 8px #6e2e13, -5px 5px 8px #6e2e13;
+}
+#inputOfGame{
+    text-align: center;
+    font-size: 1.75em;
+    max-width: 150px;
+    border-radius: 8px;
+    font-family: "Felix Titling", sans-serif;
+    font-weight: bold;
+    border: 1px solid #220101;
+    background-color: #f6f6f6;
+    color: #220101;
+    margin: 5px auto 10px;
+}
+#btnOfGame{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Felix Titling", sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    margin: 10px auto;
+    color: white;
+    background-color: #149814;
+    transition: 0.20s;
+    cursor: pointer;
+}
+#btnOfGame:hover{
+    background-color: #0b780b;
+    box-shadow: #0b780b 0 0 5px;
+}
+#btnOfGame:active{
+    background-color: #075a07;
+    box-shadow: #054905 0 0 5px;
+}
+#resultNumber {
+    font-family: "Felix Titling", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 10px auto;
+}
+#resultImages img{
+    max-width: 120px;
+}
+
+@media(max-width: 1090px) {
+    #formOfTheGame{
+        text-align: center;
+        max-width: 650px;
+        margin: 0 auto 0 ;
+        padding: 25px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: #220101 0 0 15px;
+        position: relative;
+        top: 30px;
+    }
+    #divOfH1 {
+        font-family: "Felix Titling", sans-serif;
+        margin-bottom: 25px;
+        box-shadow: #220101 0 0 5px;
+        border-radius: 5px;
+        background-color: #d53e3e;
+        font-size: 1.75rem;
+    }
+}
